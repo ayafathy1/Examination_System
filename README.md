@@ -29,27 +29,32 @@ Result Calculation
 
 Calculate_Result procedure sums correct answers and returns the student’s final score per exam.
 SP_ViewStudentGradesByInstructor procedure gives instructors an overview of students grade in their course they taught for specific intake.
+
 📊 Example Stored Procedures
 Register_Student – Add new students.
 Register_Instructor – Add new instructors.
 Register_Course – Add new courses.
 Calculate_Result – Calculate final score for a student in a specific exam.
 CourseResult – Show student scores for a course taught by an instructor for specific intake.
+
 🛠️ Technologies
 Database: Microsoft SQL Server 2022
 Language: T-SQL (DDL, DML, Stored Procedures, Triggers, Views)
 Diagrams: ERD & Mapping
+
 📂 Repository Structure
 ├── Data/                   # Inserted Data
 ├── Queries/                # SQL scripts (DDL, DML, Stored Procedures, Views, Triggers)
 ├── ERD-Mapping/            # ERD diagrams and mapping documents
 ├── Documentation/          # Project report (PDF)
 └── README.md               # Project description
+
 ▶️ How to Use
 Restore the database from the provided .bak file in SQL Server.
 Run SQL scripts in Queries/ to create and test procedures, views, and triggers.
 Use Calculate_Result and CourseResult to analyze exam outcomes.
 Refer to Documentation/Examination System Documentation.pdf for full project details.
+
 👥 Team Members
 Ahmed Mohamed Reda Salah
 Aya Fathy Moahmed Ibrahim
